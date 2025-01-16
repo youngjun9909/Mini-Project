@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App Project</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="inner-container-left">
+        <div id="date-container">
+          <p id="date"></p>
+        </div>
+        <div id="temperatureDiv">
+          <!-- 온도, 지역 -->
+        </div>
+      </div>
+
+      <div id="inner-container-right">
+        <div id="search-container">
+          <input type="text" placeholder="search" id="input" />
+        </div>
+        <div id="detail-container">
+          <h2 id="border">Weather Details</h2>
+          <span></span>
+          <div id="details">
+            <!-- 날씨 상세 -->
+            <div id="details-inner">
+              <h2>Max/Min Temp</h2>
+              <h2 id="max-min"></h2>
+            </div>
+            <div id="details-inner">
+              <h2>Humidity</h2>
+              <h2 id="Humidity"></h2>
+            </div>
+            <div id="details-inner">
+              <h2>Wind</h2>
+              <h2 id="Wind"></h2>
+            </div>
+            <div id="details-inner">
+              <h2>Cloudy</h2>
+              <h2 id="Cloudy"></h2>
+            </div>
+            <div id="dark">
+              <button id="btn">dark</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
