@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./image/sunny.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+#inner-container-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 65%;
+  height: 100%;
+}
+
+#date-container {
+  width: 100%;
+  height: 10%;
+}
+
+#temperatureDiv{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 50px;
+}
+
+#dark {
+  display: flex;
+  justify-content: end;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+#inner-container-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+
+}
+
+input {
+  width: 450px;
+  height: 40px;
+  border-top-left-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+  color: black;
+}
+
+#detail-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  
+}
+
+#details {
+  width: 100%;
+  height: 100%;
+}
+
+#date {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 50px;
+}
+
+#detail {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+#border {
+  padding: 0 40px;  
+}
+
+span {
+  width: 90%;
+  display: flex;
+  align-self: center;
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+
+#details-inner {
+  display: flex;
+  padding: 0 40px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 70px;
+  margin-right: 20px;
+}
+
+.city {
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 20px;
+}
